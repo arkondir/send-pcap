@@ -15,4 +15,4 @@ Start
     TPC.start_client
 Send file
     [Arguments]    ${FILE}    ${IP}    ${PORT}
-    TPC.send_pcap    ${FILE}    ${IP}    ${PORT}
+    TPC.send_data    ${FILE}    ${IP}    ${PORT}
